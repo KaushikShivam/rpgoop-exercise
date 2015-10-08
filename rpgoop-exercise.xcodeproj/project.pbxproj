@@ -12,6 +12,16 @@
 		2C481F1C1BC53373005AA5A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C481F1A1BC53373005AA5A4 /* Main.storyboard */; };
 		2C481F1E1BC53373005AA5A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C481F1D1BC53373005AA5A4 /* Assets.xcassets */; };
 		2C481F211BC53373005AA5A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C481F1F1BC53373005AA5A4 /* LaunchScreen.storyboard */; };
+		2C481F321BC53386005AA5A4 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C481F291BC53386005AA5A4 /* bg.png */; settings = {ASSET_TAGS = (); }; };
+		2C481F331BC53386005AA5A4 /* enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C481F2A1BC53386005AA5A4 /* enemy.png */; settings = {ASSET_TAGS = (); }; };
+		2C481F341BC53386005AA5A4 /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C481F2B1BC53386005AA5A4 /* example.png */; settings = {ASSET_TAGS = (); }; };
+		2C481F351BC53386005AA5A4 /* ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C481F2C1BC53386005AA5A4 /* ground.png */; settings = {ASSET_TAGS = (); }; };
+		2C481F371BC53386005AA5A4 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C481F2E1BC53386005AA5A4 /* player.png */; settings = {ASSET_TAGS = (); }; };
+		2C481F381BC53386005AA5A4 /* player1attackbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C481F2F1BC53386005AA5A4 /* player1attackbtn.png */; settings = {ASSET_TAGS = (); }; };
+		2C481F391BC53386005AA5A4 /* player2attackbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C481F301BC53386005AA5A4 /* player2attackbtn.png */; settings = {ASSET_TAGS = (); }; };
+		2C481F3A1BC53386005AA5A4 /* text-holder.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C481F311BC53386005AA5A4 /* text-holder.png */; settings = {ASSET_TAGS = (); }; };
+		2C481F3D1BC53BD1005AA5A4 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C481F3C1BC53BD1005AA5A4 /* Character.swift */; settings = {ASSET_TAGS = (); }; };
+		2C481F451BC53FCC005AA5A4 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C481F441BC53FCC005AA5A4 /* Game.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		2C481F1D1BC53373005AA5A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C481F201BC53373005AA5A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C481F221BC53373005AA5A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C481F291BC53386005AA5A4 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		2C481F2A1BC53386005AA5A4 /* enemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy.png; sourceTree = "<group>"; };
+		2C481F2B1BC53386005AA5A4 /* example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example.png; sourceTree = "<group>"; };
+		2C481F2C1BC53386005AA5A4 /* ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground.png; sourceTree = "<group>"; };
+		2C481F2E1BC53386005AA5A4 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		2C481F2F1BC53386005AA5A4 /* player1attackbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player1attackbtn.png; sourceTree = "<group>"; };
+		2C481F301BC53386005AA5A4 /* player2attackbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player2attackbtn.png; sourceTree = "<group>"; };
+		2C481F311BC53386005AA5A4 /* text-holder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text-holder.png"; sourceTree = "<group>"; };
+		2C481F3C1BC53BD1005AA5A4 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		2C481F441BC53FCC005AA5A4 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,40 @@
 		2C481F151BC53373005AA5A4 /* rpgoop-exercise */ = {
 			isa = PBXGroup;
 			children = (
+				2C481F3B1BC53BC3005AA5A4 /* Data */,
 				2C481F161BC53373005AA5A4 /* AppDelegate.swift */,
 				2C481F181BC53373005AA5A4 /* ViewController.swift */,
 				2C481F1A1BC53373005AA5A4 /* Main.storyboard */,
 				2C481F1D1BC53373005AA5A4 /* Assets.xcassets */,
 				2C481F1F1BC53373005AA5A4 /* LaunchScreen.storyboard */,
 				2C481F221BC53373005AA5A4 /* Info.plist */,
+				2C481F281BC53386005AA5A4 /* oop-exercise */,
 			);
 			path = "rpgoop-exercise";
+			sourceTree = "<group>";
+		};
+		2C481F281BC53386005AA5A4 /* oop-exercise */ = {
+			isa = PBXGroup;
+			children = (
+				2C481F291BC53386005AA5A4 /* bg.png */,
+				2C481F2A1BC53386005AA5A4 /* enemy.png */,
+				2C481F2B1BC53386005AA5A4 /* example.png */,
+				2C481F2C1BC53386005AA5A4 /* ground.png */,
+				2C481F2E1BC53386005AA5A4 /* player.png */,
+				2C481F2F1BC53386005AA5A4 /* player1attackbtn.png */,
+				2C481F301BC53386005AA5A4 /* player2attackbtn.png */,
+				2C481F311BC53386005AA5A4 /* text-holder.png */,
+			);
+			path = "oop-exercise";
+			sourceTree = "<group>";
+		};
+		2C481F3B1BC53BC3005AA5A4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2C481F3C1BC53BD1005AA5A4 /* Character.swift */,
+				2C481F441BC53FCC005AA5A4 /* Game.swift */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,9 +167,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C481F341BC53386005AA5A4 /* example.png in Resources */,
 				2C481F211BC53373005AA5A4 /* LaunchScreen.storyboard in Resources */,
+				2C481F3A1BC53386005AA5A4 /* text-holder.png in Resources */,
+				2C481F391BC53386005AA5A4 /* player2attackbtn.png in Resources */,
+				2C481F371BC53386005AA5A4 /* player.png in Resources */,
+				2C481F351BC53386005AA5A4 /* ground.png in Resources */,
 				2C481F1E1BC53373005AA5A4 /* Assets.xcassets in Resources */,
+				2C481F331BC53386005AA5A4 /* enemy.png in Resources */,
+				2C481F321BC53386005AA5A4 /* bg.png in Resources */,
 				2C481F1C1BC53373005AA5A4 /* Main.storyboard in Resources */,
+				2C481F381BC53386005AA5A4 /* player1attackbtn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +188,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C481F3D1BC53BD1005AA5A4 /* Character.swift in Sources */,
+				2C481F451BC53FCC005AA5A4 /* Game.swift in Sources */,
 				2C481F191BC53373005AA5A4 /* ViewController.swift in Sources */,
 				2C481F171BC53373005AA5A4 /* AppDelegate.swift in Sources */,
 			);
